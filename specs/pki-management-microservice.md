@@ -4,7 +4,7 @@
 **Component**: PKI Management Microservice  
 **Version**: 1.0  
 **Date**: July 2026  
-**Status**: Draft → Ready for Coding Agent  
+**Status**: Core issuance/retrieval/revocation implemented (in-memory storage) — see `services/pki_service/`. Automatic renewal, PostgreSQL persistence, and Key Vault integration are not yet implemented.  
 **Owner**: Orchestrator / Autonomous Agents
 
 ## 1. Overview

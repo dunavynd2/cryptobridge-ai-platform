@@ -1,4 +1,3 @@
-import subprocess
 def run_tests(code_path: str):
     """Testing Agent: Runs pytest, linting, security scans."""
     print("Running tests...")
