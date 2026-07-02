@@ -1,6 +1,87 @@
+# Python
 __pycache__/
-*.pyc
-.env
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
 venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables & secrets (Critical for security)
+.env
+*.env
+.secrets
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# Databases & Vector Stores
+*.db
+*.sqlite3
 chroma_db/
-node_modules/
+postgres_data/
+*.sql
+
+# Logs & Temporary Files
+*.log
+logs/
+tmp/
+temp/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing & Coverage
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Docker
+.dockerignore
+.docker/
+
+# Large / Generated files
+*.pdf
+*.docx
+
+# AI / Model specific
+*.bin
+*.pt
+*.onnx
+huggingface/
+ollama/
