@@ -8,6 +8,8 @@ chromadb
 psycopg2-binary
 python-dotenv
 pytest
+pytest-cov
+httpx
 ruff
 bandit
 semgrep
