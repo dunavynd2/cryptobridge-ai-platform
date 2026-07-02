@@ -1,0 +1,15 @@
+langgraph
+langchain
+langchain-community
+fastapi
+uvicorn
+streamlit
+chromadb
+psycopg2-binary
+python-dotenv
+pytest
+ruff
+bandit
+semgrep
+azure-identity
+cryptography
